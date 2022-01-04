@@ -19,7 +19,7 @@ I am a passionate programmer loving to resolve challenging problems.
 
 - ⚛️ Runaway to React in 2018
 
-- 💻 Frontend is pretty much what I'm good at 
+- 💻 Frontend dev before anything 
 
 - 🇨🇱 2017 moved to Santiago, Chile 🗿🥑🍷
 
