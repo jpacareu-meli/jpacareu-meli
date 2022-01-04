@@ -4,7 +4,9 @@
 const greet = async () => {
   const greetText = await Promise.resolve('Hello, World!');
   console.log(greetText);
-}
+};
+
+greet();
 ```
 
 ## ¿QUÉ VUELTA? 🇨🇺
