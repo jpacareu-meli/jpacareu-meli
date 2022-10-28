@@ -1,12 +1,12 @@
 # Hi 👋, I'm Javier Pacareu
 
 ```javascript
-const greet = async () => {
-  const greetText = await Promise.resolve('Hello, World!');
-  console.log(greetText);
+const greet = async <T>(str: T) => {
+  const data = await Promise.resolve(str);
+  console.log(data);
 };
 
-greet();
+greet<string>('Hello, World!');
 ```
 
 ## ¿QUÉ VUELTA? 🇨🇺
@@ -34,7 +34,7 @@ I am a passionate programmer loving to resolve challenging problems.
   <table>
     <tr>
         <td><img width="400px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jpacareu-meli&hide=html&layout=compact&show_icons=true&theme=gruvbox" /></td>
-        <td><img width="495px" align="left" src="https://github-readme-stats.vercel.app/api?username=jpacareu-meli&show_icons=true&theme=gruvbox" /></td>
+        <td><img width="495px" align="left" src="https://github-readme-stats.vercel.app/api?username=jpacareu-meli&show_icons=true&theme=gruvbox&count_private=true" /></td>
     </tr>   
   </table>
 </center>  
